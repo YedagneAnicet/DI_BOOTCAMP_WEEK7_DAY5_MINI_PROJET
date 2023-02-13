@@ -1,0 +1,5 @@
+Options -Multiviews
+RewriteEngine On
+RewriteBase /auth/public
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
